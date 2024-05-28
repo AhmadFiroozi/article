@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Articleitem from "../../components/article/Articleitem";
 import MyNavbar from "../../components/navbar/Navbar";
+import Footer from  "../../components/footer/Footer"
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -25,7 +26,7 @@ function Home() {
            
         </Row>
        </Container>
-       
+       <Footer/>
        </>
      );
 }
